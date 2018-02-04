@@ -23,7 +23,7 @@ public class Main {
             System.out.println("hello file");
         log.warning("last way");
     }
-    static boolean canBalance(List<Integer> nums) {
+     boolean canBalance(List<Integer> nums) {
         //Lis<Integer>
         int leftSum = 0, rightSum = 0, i, j;
         if(nums.size() == 1)
